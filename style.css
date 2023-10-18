@@ -1,0 +1,164 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    padding: 64px;
+    background: url(./assets/img/registrate--form--background--fon.png) center / cover;
+}
+
+.registrate,
+.reg {
+    padding: 40px 80px;
+    border-radius: 16px;
+    background-color: white;
+    box-shadow: 0px 24px 64px -16px rgba(25, 25, 28, 0.08);
+    max-width: 560px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.registrate>img,
+.reg>img {
+    width: 151px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.registrate>h1,
+.reg>h1 {
+    color: #19191C;
+    font-family: 'Poppins';
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    margin-bottom: 8px;
+}
+
+.registrate>p,
+.reg>p {
+    color: #828487;
+    font-family: 'Poppins';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.registrate>p:last-child,
+.reg>p:last-child {
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.registrate>form,
+.reg>form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 42px;
+}
+
+.reg>form {
+    margin-bottom: 15px;
+}
+
+.registrate>form>label,
+.reg>form>label {
+    color: #828487;
+    font-family: 'Poppins';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    margin-bottom: 4px;
+    cursor: pointer;
+}
+
+.registrate>form>div,
+.reg>form>div {
+    border-radius: 58px;
+    border: 1px solid #E4E4E4;
+    background: #FFF;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    padding: 12px 16px;
+    margin-bottom: 20px;
+}
+
+.registrate>form>div>input,
+.reg>form>div>input {
+    width: 100%;
+    border: none;
+}
+
+.registrate>form>div>input::placeholder,
+.reg>form>div>input::placeholder {
+    color: #C2C2C2;
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+#forgotPassword {
+    color: #FF5C00;
+    font-family: 'Poppins';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+#logIn,
+#registrate {
+    width: 100%;
+    border-radius: 58px;
+    background: white;
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    padding: 12px;
+    margin-bottom: 15px;
+    color: black;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+#logIn:hover,
+#registrate:hover {
+    color: white;
+    border: 1px solid #FF5C00;
+    background: #FF5C00;
+}
+
+.sucsess {
+    border: 1px solid lightgreen !important;
+}
+
+.error {
+    border: 1px solid red !important;
+}
+
+.none {
+    display: none;
+}
